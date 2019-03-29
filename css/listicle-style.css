@@ -1,3 +1,119 @@
-/**
- TODO(you): Write the CSS necessary to complete HW1!
-*/
+
+#headerpic {
+      height:500px;
+      background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://i.imgur.com/cvLVUYi.jpg") ;
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size:cover;
+      display:flex;
+      text-align:center;
+      align-items:center;
+      justify-content:center;
+    }
+     #vrk {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height:100px;
+    width:100px;
+    margin-right:auto;
+    margin-top:-50px;
+    border-radius:100%;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    }
+    #headerword{
+      margin-left:auto;
+      margin-right:auto;
+      font-family:"Roboto Slab",serif;
+      font-size:36px;
+      color:white;
+      width:780px;
+      margin-top:0px;
+    }
+    #preprofile{
+      text-align:center;
+    }
+    #profile{
+      display:inline-block;
+      text-align:center;
+      margin:auto;
+      font-size:18px;
+      font-family:'Source Sans Pro',sans-serif;
+      color:rgb(51, 51, 51);
+      line-height:24px;
+    
+    }
+    #pro1{
+      font-weight:bold;
+    }
+    #pro2{
+      font-style:italic;
+      border-bottom-style:solid;
+      border-color:#e6e6e6;
+      border-width:2px;
+      padding-bottom:10px;
+      margin-bottom:60px;
+    }
+    .number{
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        margin-left:-40px;
+        color:rgba(0, 0, 0, 0.25);
+    }
+    .heading{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        font-family:"Roboto Slab",serif;
+        font-size:36px;
+        font-weight:bold;
+        color:rgb(51, 51, 51);
+        width:66.67%;
+    }
+
+    .parat{
+        display:flex;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    a{text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .addr{
+        font-family:"Roboto Slab",serif;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        color:#42b4d6;
+        width:66.67%;
+        margin-bottom:20px;
+    
+    }
+    .para{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        font-family:'Source Sans Pro',sans-serif;
+        font-size:18px;
+        line-height:32px;
+        color:rgb(51, 51, 51);
+        width:66.67%;
+    }
+    .rec{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .prepimg{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:120px;
+        margin-top:20px;
+    }
+    
+    
+    
